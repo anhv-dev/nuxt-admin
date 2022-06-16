@@ -1,11 +1,9 @@
 <template>
-  <div>
-    Content Admin
-  </div>
+  <div>Content Admin</div>
 </template>
 
 <script>
 export default {
-  layout: 'admin',
-}
+  layout: "admin",
+};
 </script>

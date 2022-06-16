@@ -1,4 +1,4 @@
-.layout-admin {
+.admin {
   height: 100%;
 
   &__header {
@@ -20,7 +20,14 @@
 
   &__logo {
     height: 32px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(255 255 255 / 20%);
     margin: 16px;
+  }
+
+  &__content {
+    margin: 24px 16px;
+    padding: 24px;
+    background: #fff;
+    min-height: auto;
   }
 }

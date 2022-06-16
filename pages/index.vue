@@ -1,9 +1,11 @@
 <template>
-  <Tutorial/>
+  <div>
+    Content Admin
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  layout: 'admin',
 }
 </script>
